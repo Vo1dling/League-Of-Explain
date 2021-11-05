@@ -53,12 +53,12 @@ nav li{
     
 }
 nav{
-    margin-left: 12.5vw;
+    margin-left: 17.5vw;
     display: flex;
     position: fixed;
     align-items: center;
     justify-content: center;
-    width: 75vw;
+    width: 65vw;
     background-color:var(--secondary-color);
     top: 0;
     z-index: 100;
@@ -74,33 +74,29 @@ ul a:hover{
     background-color: var(--secondary-color);
     justify-content: var(--primary-color);
     margin-top: 7.5vw;
-    margin-left: 12.5vw;
-    width: 75vw;
+    margin-left: 17.5vw;
+    width: 65vw;
     height: 200vh;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
 }
-.basic-atk{
-    text-shadow: 3px 0px var(--text-shadow);
-    color: var(--primary-color);
-    margin-top: 5vh;
-    margin-left: 5vw;
+.content-container span{
     display: flex;
     align-items: center;
+    text-shadow: 3px 0px var(--text-shadow);
+    color: var(--primary-color);
     font-size: 1.3rem;
+    margin-left: 5vw;
+    margin-top: 10vh;
 }
 .content-container img{
     width: 3vw;
     height: 6vh;
     object-fit: cover;
+    
 }
-.stats{
-    text-shadow: 3px 0px var(--text-shadow);
-    color: var(--primary-color);
-    margin-top: 10vh;
-    margin-left: 5vw;
-    display: flex;
-    align-items: center;
-    font-size: 1.3rem;
+.basic-atk{
+    margin-top: 5vh;
 }
+
