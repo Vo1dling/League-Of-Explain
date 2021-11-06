@@ -102,6 +102,79 @@ ul a:hover{
     margin-right: 3vw;
     margin-left: -4vw;
 }
+@media (max-width: 500px){
+    .content-container span{
+        font-size: 0.75rem;
+    }
+    .content-container span h1{
+        font-size: 1rem;
 
+    }
+    .content-container {
+        width: 95vw;
+        height: 130vh;
+        margin-left: 2.5vw;
+    }
+    nav{
+        margin-left: 2.5vw;
+        width: 95vw;
+    }
+    nav li{
+        font-size: 0.6rem;
+    }
+    .content-container img{
+        width: 10vw;
+        height: 4vh;
+    }
+}
+@media (min-width: 501px) and (max-width: 768px){
+    .content-container span{
+        font-size: 1.1rem;
+    }
+    .content-container span h1{
+        font-size: 1.25rem;
+
+    }
+    .content-container {
+        width: 90vw;
+        height: 125vh;
+        margin-left: 5vw;
+    }
+    nav{
+        margin-left: 5vw;
+        width: 90vw;
+    }
+    nav li{
+        font-size: 1rem;
+    }
+    .content-container img{
+        width: 10vw;
+        height: 4vh;
+    }
+}
+    @media (min-width: 769px) and (max-width: 1024px){
+        .content-container span{
+            font-size: 1.3rem;
+        }
+        .content-container span h1{
+            font-size: 2rem;
+        }
+        .content-container {
+            width: 90vw;
+            height: 125vh;
+            margin-left: 5vw;
+        }
+        nav{
+            margin-left: 5vw;
+            width: 90vw;
+        }
+        nav li{
+            font-size: 1.3rem;
+        }
+        .content-container img{
+            width: 10vw;
+            height: 4vh;
+        }
+    }
 
 

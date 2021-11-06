@@ -173,6 +173,81 @@ nav a:hover{
     text-decoration: none;
     font-size: 1.5rem;
 }
+@media (max-width: 500px){
+    #page1 .flex p{
+        font-size: 0.7rem;
+    }
+    #page1 .flex h1{
+        font-size: 1.4rem;
+    }
+    .img4{
+        width: 0vw;
+        height: 0vh;
+        object-fit: cover;
+        border-radius: 0%;
+    }
+    #page2 .flex a,#page2 .flex p{
+        font-size:0.7rem;
+}
+nav li{
+    font-size: 0.7rem;   
+}
+nav a:hover{
+    background-color: transparent;
+    color: var(--primary-color);
+}
+}
 
+@media (min-width: 501px) and (max-width: 768px){
+    #page1 .flex p{
+        font-size: 1.25rem;
+    }
+    #page1 .flex h1{
+        font-size: 2.5rem;
+    }
+    .img4{
+        width: 7.5vw;
+        height: 6vh;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    #page2 .flex a,#page2 .flex p{
+        font-size:1rem;
+}
+nav li{
+    font-size: 1.1rem;   
+}
+nav a:hover{
+    background-color: transparent;
+    color: var(--primary-color);
+}
+}
 
+@media (min-width: 769px) and (max-width: 1024px){
+    #page1 .flex p{
+        font-size: 1.3rem;
+    }
+    #page1 .flex h1{
+        font-size: 3rem;
+    }
+    .img4{
+        width: 7.5vw;
+        height: 6vh;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    #page2 .flex a,#page2 .flex p{
+        font-size:1rem;
+}
+nav li{
+    font-size: 1.3rem;
+}
+nav a:hover{
+    background-color: transparent;
+    color: var(--primary-color);
+}
+.wallpaper img{
+    margin-top: -700.5px; 
+}
+}
 
