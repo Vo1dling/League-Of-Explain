@@ -12,7 +12,7 @@ body::-webkit-scrollbar {
 :root{
     --primary-color: #00ADB5;
     --secondary-color: #393E46;
-    --text-shadow: 3px 0px black ;
+    --text-shadow:black ;
 }
 .wallpaper{
     display: grid;
@@ -86,7 +86,7 @@ nav{
     justify-content: center;
 }
 #page1 .flex p{
-    text-shadow:var(--text-shadow);
+    text-shadow: 0px 3px var(--text-shadow);
     font-size: 1.3rem;
     color: var(--primary-color);
     z-index:10;

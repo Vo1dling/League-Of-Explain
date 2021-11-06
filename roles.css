@@ -6,7 +6,7 @@
 
 }
 #page1{
-    height: 175vh;
+    height: 120vh;
     width: 100vw;
 }
 body::-webkit-scrollbar {
@@ -76,7 +76,7 @@ ul a:hover{
     margin-top: 7.5vw;
     margin-left: 17.5vw;
     width: 65vw;
-    height: 175vh;
+    height: 120vh;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
@@ -96,11 +96,12 @@ ul a:hover{
 }
 
 .content-container img{
-    width: 3vw;
-    height: 6vh;
+    width: 2vw;
+    height: 4vh;
     object-fit: cover;
     margin-right: 3vw;
     margin-left: -4vw;
 }
+
 
 
